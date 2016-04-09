@@ -1,1 +1,2 @@
-# A basic shopping cart using ReactJS UI library.
+# ShoppingCart App
+A basic shopping cart using ReactJS UI library.
