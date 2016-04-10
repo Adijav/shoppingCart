@@ -4,16 +4,37 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body>
+	<div class="container">
+		<div class="row">
+			<h1 class="col-lg-12 text-center well well-lg">Fruits Shopping Store</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 well well-lg">
+				<h3 class="text-center">Fruits List</h3>
+				<div id="fruitsList" class="fruits row">
+					
+				</div>
+			</div>
+			<div class="col-lg-3 col-lg-offset-1 well well-lg">
+				<h3 class="text-center">Add to Cart</h3>
+				<div id="addToCart" class="cart">
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tiny-pubsub/0.7.0/ba-tiny-pubsub.js"></script>
 	<script src="https://fb.me/react-0.14.8.js"></script>
 	<script src="https://fb.me/react-dom-0.14.8.js"></script>
 	<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script type="text/jsx" src="scripts/script.js"></script>
 </body>
 </html>
